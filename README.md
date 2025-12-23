@@ -44,25 +44,28 @@ The diagram below illustrates the agent-based workflow used to process user quer
 
 ## ⚙️ Installation
 
-1. Clone the repository:
+###1. Clone the repository:
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name ```bash
+cd your-repo-name
 
-2.Create and activate a virtual environment:
+###2.Create and activate a virtual environment:
+```bash
 python -m venv myenv
 source myenv/bin/activate   # On Windows: myenv\Scripts\activate
-3.Install dependencies:
+###3.Install dependencies:
+```bash
 pip install -r requirement.txt
-🔐 Environment Variables
+
+##🔐 Environment Variables
 Create a .env file in the project root and add:
 OPENAI_API_KEY=your_openai_api_key
-▶️ Usage
+##▶️ Usage
 Run the Streamlit application:
 streamlit run database_query_agent_ui.py
 http://localhost:8501
 Then open your browser at:
-📈 Future Improvements
+##📈 Future Improvements
 Support for additional database engines
 Advanced query optimization
 Enhanced data visualization options
