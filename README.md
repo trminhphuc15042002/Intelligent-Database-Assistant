@@ -1,4 +1,4 @@
-<img width="975" height="814" alt="image" src="https://github.com/user-attachments/assets/fac2a5df-a2d3-487d-ac94-2ff73ab28d1d" /># Intelligent Database Assistant
+                                                                                                                                                          # Intelligent Database Assistant
 
 ## 📌 Overview
 Intelligent Database Assistant is a Streamlit-based application that allows users to interactively query and analyze relational databases using an AI-powered agent.  
@@ -37,8 +37,9 @@ database_agent_ui/
 └── .gitignore
 
 ---
-## WorkFlow
-<img width="975" height="814" alt="image" src="https://github.com/user-attachments/assets/df1faf72-3acc-4780-8720-1ebae5197025" />
+## 🧠 Agent Workflow
+The diagram below illustrates the agent-based workflow used to process user queries, validate relevance, generate SQL queries, execute them, and produce human-readable insights.
+<img width="800" height="814" alt="image" src="https://github.com/user-attachments/assets/df1faf72-3acc-4780-8720-1ebae5197025" />
 
 
 ## ⚙️ Installation
@@ -58,12 +59,10 @@ OPENAI_API_KEY=your_openai_api_key
 ▶️ Usage
 Run the Streamlit application:
 streamlit run database_query_agent_ui.py
+http://localhost:8501
+Then open your browser at:
 📈 Future Improvements
-
 Support for additional database engines
-
 Advanced query optimization
-
 Enhanced data visualization options
-
 User authentication and access control
