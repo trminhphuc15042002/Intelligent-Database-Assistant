@@ -47,7 +47,8 @@ The diagram below illustrates the agent-based workflow used to process user quer
 1. Clone the repository:
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+cd your-repo-name ```bash
+
 2.Create and activate a virtual environment:
 python -m venv myenv
 source myenv/bin/activate   # On Windows: myenv\Scripts\activate
