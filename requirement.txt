@@ -1,0 +1,14 @@
+pandas
+matplotlib
+seaborn
+langchain     
+langgraph
+langchain-openai 
+pymysql
+psycopg2-binary
+sqlalchemy
+colorama
+streamlit
+pydantic
+python-dotenv
+langchain-core 
